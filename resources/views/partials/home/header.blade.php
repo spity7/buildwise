@@ -48,7 +48,7 @@
                             <a href="{{ route('about') }}">About</a>
                         </li>
                         <li class="dropdown">
-                            <a href="{{ route('projects') }}">Projects</a>
+                            <a href="{{ route('projects') }}">Projects <span class="arrow"></span></a>
                             <ul class="shadow-box">
                                 <li><a href="{{ route('case.lilas001') }}">Lilas 001 &#8211; Medyar 4796</a>
                                 </li>

@@ -311,7 +311,7 @@ ul {
 
 .section-title__title {
     margin: 0;
-    color: var(--aports-black);
+    color: #000000;
     font-size: 45px;
     line-height: 54px;
     font-weight: 700;
@@ -470,8 +470,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     background-color: var(--e-global-color-primary);
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -556,7 +556,7 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 17px;
     color: var(--aports-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -578,7 +578,7 @@ ul {
 .main-menu__wrapper {
     position: relative;
     display: block;
-    padding-right: 60px;
+    padding: 0px 80px;
 }
 
 .main-menu__wrapper-inner {
@@ -596,11 +596,11 @@ ul {
 .main-menu__logo {
     position: relative;
     display: block;
-    padding: 10px 60px;
+    padding: 10px 50px;
 }
 
 .main-menu__logo > a > img {
-  width: 155px;
+    width: 200px;
 }
 
 .main-menu__main-menu-box {
@@ -665,12 +665,29 @@ ul {
 }
 
 .stricky-header .main-menu__logo {
-    padding: 20.5px 60px;
+    padding: 15px 60px;
     margin-top: 0;
 }
 
 .stricky-header.main-menu {
-    background-color: var(--aports-black);
+    background-color: var(--aports-white);
+}
+
+.main-menu__list > li.dropdown > a .arrow {
+    border: solid var(--aports-black);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when the dropdown is open */
+.main-menu__list > li.dropdown:hover > a .arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 .main-menu .main-menu__list,
@@ -2075,12 +2092,12 @@ ul {
 .main-slider-three__sub-title {
     position: relative;
     display: inline-block;
-    font-size: 18px;
+    font-size: 40px;
     color: var(--aports-white);
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(-120px);
@@ -2097,7 +2114,7 @@ ul {
 .main-slider-three__sub-title:before {
     content: "";
     position: absolute;
-    bottom: -2px;
+    bottom: -10px;
     left: 0;
     right: 0;
     height: 1px;
@@ -2108,8 +2125,9 @@ ul {
     position: relative;
     font-size: 90px;
     color: var(--aports-white);
-    font-weight: 400;
+    font-weight: 500;
     line-height: 80px;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-top: 27px;
     opacity: 0;
@@ -2131,6 +2149,27 @@ ul {
     text-transform: initial;
 }
 
+.main-slider-three__below-title {
+    position: relative;
+    font-size: 30px;
+    color: var(--aports-gray);
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 17px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(120px);
+    transform: translateY(120px);
+    -webkit-transition-delay: 1000ms;
+    transition-delay: 1000ms;
+    -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+    transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease,
+        -webkit-transform 2000ms ease;
+}
+
 .main-slider-three .swiper-slide-active .main-slider-three__sub-title {
     visibility: visible;
     opacity: 0.5;
@@ -2139,6 +2178,13 @@ ul {
 }
 
 .main-slider-three .swiper-slide-active .main-slider-three__title {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+}
+
+.main-slider-three .swiper-slide-active .main-slider-three__below-title {
     visibility: visible;
     opacity: 1;
     -webkit-transform: translateY(0) translateX(0);
@@ -7579,6 +7625,10 @@ ul {
 
 .the-building__top-left .section-title {
     margin-bottom: 30px;
+}
+
+.the-building__top-text-1{
+  padding-bottom: 25px;
 }
 
 .the-building__top-text-2 {

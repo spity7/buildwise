@@ -19,16 +19,17 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-three"
-                    style="background-image: url(assets/images/backgrounds/main-slider-3-1.jpg);"></div>
+                    style="background-image: url(assets/images/backgrounds/M1_C08.2-500x400.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-three__content">
-                                <p class="main-slider-three__sub-title">30 Commercial Road Fratton</p>
-                                <h2 class="main-slider-three__title">Smart living <br> with <span>5 star</span>
-                                    <br> services
+                                <p class="main-slider-three__sub-title">Your way for luxury</p>
+                                <h2 class="main-slider-three__title">Smart living <br> with services <span>5 star</span>
+                                    <br>
                                 </h2>
+                                <p class="main-slider-three__below-title">Best price apartments</p>
                             </div>
                         </div>
                     </div>
@@ -37,16 +38,16 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-three"
-                    style="background-image: url(assets/images/backgrounds/main-slider-3-2.jpg);"></div>
+                    style="background-image: url(assets/images/backgrounds/M1_C01.3-500x400.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-three__content">
-                                <p class="main-slider-three__sub-title">30 Commercial Road Fratton</p>
-                                <h2 class="main-slider-three__title">Smart living <br> with <span>5 star</span>
-                                    <br> services
+                                <p class="main-slider-three__sub-title">Welcome to aports</p>
+                                <h2 class="main-slider-three__title">Modern residential apartments
                                 </h2>
+                                <p class="main-slider-three__below-title">Best price apartments</p>
                             </div>
                         </div>
                     </div>
@@ -55,16 +56,16 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-three"
-                    style="background-image: url(assets/images/backgrounds/main-slider-3-3.jpg);"></div>
+                    style="background-image: url(assets/images/backgrounds/M1_C02.3-500x400.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-three__content">
-                                <p class="main-slider-three__sub-title">30 Commercial Road Fratton</p>
-                                <h2 class="main-slider-three__title">Smart living <br> with <span>5 star</span>
-                                    <br> services
+                                <p class="main-slider-three__sub-title">Your way for luxury</p>
+                                <h2 class="main-slider-three__title">Your way for luxury
                                 </h2>
+                                <p class="main-slider-three__below-title">Luxury complex</p>
                             </div>
                         </div>
                     </div>
